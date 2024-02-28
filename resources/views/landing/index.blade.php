@@ -3,10 +3,9 @@
 <section class="hero mb-5 pt-5 pb-5" id="hero">
   <div class="container">
       <div class="row d-flex justify-content-center">
-          <div class="col-xl-10 text-center">
+          <div class="col-xl-8 text-center">
               <h1 class="title text-primary mb-5 fw-bold"><span class="text-dark">Web Development</span><br>Beyond Boundaries</h1>
-              <p class="mb-3 slogan text-dark">Web development agencies provide the best solutions</p>
-              <p class="mb-5 text-secondary">ZCODE provides dynamic web development solutions by delivering digital experiences that seamlessly combine innovation, functionality and aesthetics.</p>
+              <p class="mb-5 text-dark">ZCODE provides dynamic web development solutions by delivering digital experiences that seamlessly combine innovation, functionality and aesthetics.</p>
               <a href="#contact" class="btn btn-primary px-4 me-2">Contact Us</a>
               <a href="/project" class="btn btn-light">Projects</a>
           </div>
@@ -18,13 +17,13 @@
   <div class="container">
       <div class="row">
           <div class="col-md-12">
-              <h3 class="mb-5 text-center fw-bold">About Us</h3>
               <div class="row d-flex justify-content-between des">
                   <div class="col-md-6 col-xl-5 mb-4 text-center">
                       {{-- <img src="/img/about.jpg" class="rounded img-fluid" alt="zcode"> --}}
                       <img src="/img/icon.png" class="rounded img-fluid" alt="zcode">
-                  </div>
-                  <div class="col-md-6 col-xl-6 align-self-center">
+                    </div>
+                    <div class="col-md-6 col-xl-6 align-self-center">
+                      <h3 class="mb-3 lh-base fw-bold">We are ready to provide the best solution</h3>
                       <p class="justify">ZCODE is a platform for creating, learning and discussing together about website programming. You will have a pleasant experience and can increase your insight and knowledge with us. We can help you create the website of your dreams. We can learn and discuss together to add insight and knowledge about web programming.</p>
                   </div>
               </div>
@@ -237,7 +236,7 @@
                   <div class="card-body">
                       <i class="bi bi-envelope" style="font-size: 30px;"></i>
                       <h5 class="card-title mt-3">Email</h5>
-                      <p class="card-text">adamzein345@gmail.com</p>
+                      <p class="card-text">zcodeserver@gmail.com</p>
                   </div>
               </div>
           </div>
@@ -251,11 +250,11 @@
               </div>
           </div>
           <div class="col-md-6 col-xl-4 text-center mb-4">
-              <div class="card" style="cursor: pointer;" onclick="window.open('https://api.whatsapp.com/send?phone=6281316671373&text=Hello%20ZCODE!', '_blank');">
+              <div class="card" style="cursor: pointer;" onclick="window.open('https://api.whatsapp.com/send?phone=6281288228600&text=Hello%20ZCODE!', '_blank');">
                   <div class="card-body">
                       <i class="bi bi-whatsapp" style="font-size: 30px;"></i>
                       <h5 class="card-title mt-3">WhatsApp</h5>
-                      <p class="card-text">0813 1667 1373</p>
+                      <p class="card-text">0812 8822 8600</p>
                   </div>
               </div>
           </div>
