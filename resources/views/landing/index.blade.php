@@ -1,31 +1,32 @@
 @extends('layouts.main')
 @section('container')
-<section class="hero mb-5 pt-5 pb-5" id="hero">
-  <div class="container">
-      <div class="row d-flex justify-content-center">
-          <div class="col-xl-8 text-center">
-              <h1 class="title text-primary mb-5 fw-bold"><span class="text-dark">Web Development</span><br>Beyond Boundaries</h1>
-              <p class="mb-5 text-dark">ZCODE provides dynamic web development solutions by delivering digital experiences that seamlessly combine innovation, functionality and aesthetics.</p>
-              <a href="#contact" class="btn btn-primary px-4 me-2">Contact Us</a>
-              <a href="/project" class="btn btn-light">Projects</a>
-          </div>
-      </div>
-  </div>
-</section>
+<section class="hero" id="hero">
+    <div class="container h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-xl-8 text-center">
+                <h1 class="title text-primary mb-5 fw-bolder"><span class="text-dark">Web Development</span><br>Beyond Boundaries</h1>
+                <p class="mb-5 text-dark">ZCODE provides dynamic web development solutions by delivering digital experiences that seamlessly combine innovation, functionality, and aesthetics.</p>
+                <a href="#contact" class="btn btn-primary px-4 me-2">Consult with Us</a>
+                <a href="/project" class="btn btn-light">Projects</a>
+            </div>
+        </div>
+    </div>
+  </section>
 
 <section class="about mb-5 pt-5 pb-5" id="about">
   <div class="container">
       <div class="row">
           <div class="col-md-12">
               <div class="row d-flex justify-content-between des">
-                  <div class="col-md-6 col-xl-5 mb-4 text-center">
+                    <div class="col-md-6 col-xl-5 mb-4 text-center">
                       {{-- <img src="/img/about.jpg" class="rounded img-fluid" alt="zcode"> --}}
-                      <img src="/img/icon.png" class="rounded img-fluid" alt="zcode">
+                      <img src="/img/about.jpg" class="rounded img-fluid" alt="zcode">
                     </div>
                     <div class="col-md-6 col-xl-6 align-self-center">
-                      <h3 class="mb-3 lh-base fw-bold">We are ready to provide the best solution</h3>
-                      <p class="justify">ZCODE is a platform for creating, learning and discussing together about website programming. You will have a pleasant experience and can increase your insight and knowledge with us. We can help you create the website of your dreams. We can learn and discuss together to add insight and knowledge about web programming.</p>
-                  </div>
+                      <h3 class="mb-3 lh-base fw-bold">We provide the best solution</h3>
+                      <p class="justify mb-4">ZCODE has a focus on providing the best solutions in developing the web you want. You can directly consult with us regarding the website that will be developed for free.</p>
+                      <a href="#contact" class="btn btn-outline-primary px-4 me-2">Free Consultation Now</a>
+                    </div>
               </div>
           </div>
       </div>

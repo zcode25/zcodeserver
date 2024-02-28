@@ -104,13 +104,20 @@ body {
     background-color: #fafaff;
 }
 
+#hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center; /* Menambahkan ini untuk memastikan konten di tengah secara vertikal */
+    justify-content: center;
+}
+
 .footer {
     background-color: #00b1ff;
     color: #fff;
 }
 
 .title {
-    font-size: 60px;
+    font-size: 80px;
 }
 
 .slogan {
@@ -169,5 +176,9 @@ body {
     .about,
     .about p {
         text-align: center;
+    }
+
+    .title {
+        font-size: 60px;
     }
 }
