@@ -55,18 +55,6 @@ body {
     color: #000 !important;
 }
 
-.about img {
-    /* box-shadow: 8px 8px 30px 0px rgba(42, 67, 113, 0.15);
-    padding: 50px; */
-    /* height: 250px; */
-}
-
-.about .des {
-    /* box-shadow: 8px 8px 30px 0px rgba(42, 67, 113, 0.15); */
-    padding: 50px;
-    /* height: 80%; */
-}
-
 .justify {
     text-align: justify;
 }
@@ -107,7 +95,7 @@ body {
 #hero {
     min-height: 100vh;
     display: flex;
-    align-items: center; /* Menambahkan ini untuk memastikan konten di tengah secara vertikal */
+    align-items: center;
     justify-content: center;
 }
 
@@ -118,6 +106,10 @@ body {
 
 .title {
     font-size: 80px;
+}
+
+.title-text {
+    font-size: 20px;
 }
 
 .slogan {
@@ -179,6 +171,10 @@ body {
     }
 
     .title {
-        font-size: 60px;
+        font-size: 40px;
+    }
+
+    .title-text {
+        font-size: 16px;
     }
 }
