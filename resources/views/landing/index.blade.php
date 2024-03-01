@@ -38,7 +38,7 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-md-12 mb-5">
-                <h3 class="fw-bold">What Features Will You Get?</h3>
+                <h3 class="fw-bold">What Service Will You Get?</h3>
             </div>
         </div>
         <div class="row text-center">
@@ -231,38 +231,20 @@
                 </div>
             </div>
             <div class="col-md-6 col-xl-4 text-center mb-4">
-                <div class="card" style="cursor: pointer;" onclick="window.open('mailto:adamzein345@gmail.com', '_blank')">
+                <div class="card" style="cursor: pointer;" onclick="window.open('mailto:zcodeserver@gmail.com', '_blank')">
                     <div class="card-body">
                         <i class="bi bi-envelope" style="font-size: 30px;"></i>
                         <h5 class="card-title mt-3">Email</h5>
-                        <p class="card-text">adamzein345@gmail.com</p>
+                        <p class="card-text">zcodeserver@gmail.com</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-xl-4 text-center mb-4">
-                <div class="card" style="cursor: pointer;" onclick="window.open('https://t.me/zcode_community', '_blank')">
-                    <div class="card-body">
-                        <i class="bi bi-telegram" style="font-size: 30px;"></i>
-                        <h5 class="card-title mt-3">Telegram</h5>
-                        <p class="card-text">ZCODE Community</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-4 text-center mb-4">
-                <div class="card" style="cursor: pointer;" onclick="window.open('https://api.whatsapp.com/send?phone=6281316671373&text=Hello%20ZCODE!', '_blank');">
+                <div class="card" style="cursor: pointer;" onclick="window.open('https://api.whatsapp.com/send?phone=6281288228600&text=Hello%20ZCODE!', '_blank');">
                     <div class="card-body">
                         <i class="bi bi-whatsapp" style="font-size: 30px;"></i>
                         <h5 class="card-title mt-3">WhatsApp</h5>
-                        <p class="card-text">0813 1667 1373</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-4 text-center">
-                <div class="card" style="cursor: pointer;" onclick="window.open('https://github.com/zcode25', '_blank');">
-                    <div class="card-body">
-                        <i class="bi bi-github" style="font-size: 30px;"></i>
-                        <h5 class="card-title mt-3">GitHub</h5>
-                        <p class="card-text">zcode25</p>
+                        <p class="card-text">0812 8822 8600</p>
                     </div>
                 </div>
             </div>
@@ -275,8 +257,8 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <h3>ZCODE</h3>
-                <p>Create, Learn, and Discuss Together About Website Programming With Fun</p>
-                <p>© 2022 ZCODE. All rights reserved.</p>
+                <p>Web Development Beyond Boundaries</p>
+                <p>© {{ date('Y') }} ZCODE. All rights reserved.</p>
             </div>
         </div>
     </div>

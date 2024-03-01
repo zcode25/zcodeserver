@@ -10,12 +10,12 @@
       </div>
       <div class="row mb-5 justify-content-center">
           <div class="col-md-6 col-xl-4 mb-4">
-              <div class="card" onclick="window.open('https://hesti.zcodeserver.my.id/')" style="cursor: pointer">
-                  <img src="/img/quran.png" class="card-img-top">
+              <div class="card" onclick="window.open('https://zcode25.github.io/switch-to-whatsApp/')" style="cursor: pointer">
+                  <img src="/img/stw.png" class="card-img-top">
                   <div class="card-body">
                       <div class="row">
                           <div class="col-8">
-                              <h6 class="card-title fw-bold mb-2">IT Helpdesk</h6>
+                              <h6 class="card-title fw-bold mb-2">Switch to WA</h6>
                               <p class="card-text text-secondary">Version 1.1.0</p>
                           </div>
                       </div>
@@ -23,17 +23,30 @@
               </div>
           </div>
           <div class="col-md-6 col-xl-4 mb-4">
-            <div class="card" onclick="window.open('https://zcode25.github.io/switch-to-whatsApp/')" style="cursor: pointer">
-                <img src="/img/stw.png" class="card-img-top">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-8">
-                            <h6 class="card-title fw-bold mb-2">Switch to WA</h6>
-                            <p class="card-text text-secondary">Version 1.1.0</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+              <div class="card" onclick="window.open('https://freenet.id/')" style="cursor: pointer">
+                  <img src="/img/freenet2.png" class="card-img-top">
+                  <div class="card-body">
+                      <div class="row">
+                          <div class="col-8">
+                              <h6 class="card-title fw-bold mb-2">FREENET.ID</h6>
+                              <p class="card-text text-secondary">Version 1.1.0</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-6 col-xl-4 mb-4">
+              <div class="card" onclick="window.open('https://dailyquran.rf.gd/')" style="cursor: pointer">
+                  <img src="/img/quran.png" class="card-img-top">
+                  <div class="card-body">
+                      <div class="row">
+                          <div class="col-8">
+                              <h6 class="card-title fw-bold mb-2">Daily Quran</h6>
+                              <p class="card-text text-secondary">Version 1.1.0</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
           </div>
           <div class="col-md-6 col-xl-4 mb-4">
               <div class="card" onclick="window.open('https://fuluss.rf.gd/')" style="cursor: pointer">
@@ -80,7 +93,7 @@
                   <div class="card-body">
                       <div class="row">
                           <div class="col-8">
-                              <h6 class="card-title fw-bold mb-2">Electronic Shop</h6>
+                              <h6 class="card-title fw-bold mb-2">electronic shop</h6>
                               <p class="card-text text-secondary">Version 2.1.0</p>
                           </div>
                       </div>

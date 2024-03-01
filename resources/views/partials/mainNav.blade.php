@@ -11,6 +11,7 @@
           <div class="navbar-nav ms-auto">
               <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" href="/">Home</a>
               <a class="nav-link {{ Request::is('project') ? 'active' : '' }}" href="/project">Projects</a>
+              <a class="nav-link {{ Request::is('') ? 'active' : '' }}" href="/project">Clients</a>
               <a class="nav-link" href="/#contact">Contact Us</a>
           </div>
       </div>
