@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ClientController;
 use App\Http\Controllers\LandingController;
 use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
@@ -25,4 +26,8 @@ Route::controller(LandingController::class)->group(function() {
 
 Route::controller(ProjectController::class)->group(function() {
     Route::get('/project', 'index')->name('project');
+});
+
+Route::controller(ClientController::class)->group(function() {
+    Route::get('/client', 'index')->name('client');
 });
