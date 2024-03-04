@@ -70,12 +70,12 @@
         </div>
         <div class="row mb-5">
             <div class="col-md-6 col-xl-4 mb-4">
-                <div class="card" onclick="window.open('https://zcode25.github.io/switch-to-whatsApp/')" style="cursor: pointer">
-                    <img src="/img/stw.png" class="card-img-top">
+                <div class="card" onclick="window.open('https://hesti.zcodeserver.my.id/')" style="cursor: pointer">
+                    <img src="/img/hesti.png" class="card-img-top">
                     <div class="card-body">
                         <div class="row">
-                            <div class="col-8">
-                                <h6 class="card-title fw-bold mb-2">Switch to WA</h6>
+                            <div class="col-12">
+                                <h6 class="card-title fw-bold mb-2">IT Helpdesk</h6>
                                 <p class="card-text text-secondary">Version 1.1.0</p>
                             </div>
                         </div>
@@ -83,12 +83,12 @@
                 </div>
             </div>
             <div class="col-md-6 col-xl-4 mb-4">
-                <div class="card" onclick="window.open('https://freenet.id/')" style="cursor: pointer">
-                    <img src="/img/freenet2.png" class="card-img-top">
+                <div class="card" onclick="window.open('https://zcode25.github.io/switch-to-whatsApp/')" style="cursor: pointer">
+                    <img src="/img/stw.png" class="card-img-top">
                     <div class="card-body">
                         <div class="row">
-                            <div class="col-12">
-                                <h6 class="card-title fw-bold mb-2">FREENET.ID</h6>
+                            <div class="col-8">
+                                <h6 class="card-title fw-bold mb-2">Switch to WA</h6>
                                 <p class="card-text text-secondary">Version 1.1.0</p>
                             </div>
                         </div>
