@@ -249,16 +249,4 @@
     </div>
 </section>
 
-<section class="footer pt-5 pb-5" id="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h3>ZCODE</h3>
-                <p>Web Development Beyond Boundaries</p>
-                <p>© {{ date('Y') }} ZCODE. All rights reserved.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
 @endsection

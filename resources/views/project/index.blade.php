@@ -11,7 +11,7 @@
       <div class="row mb-5 justify-content-center">
           <div class="col-md-6 col-xl-6 mb-4">
               <div class="card" onclick="window.open('https://hesti.zcodeserver.my.id/')" style="cursor: pointer">
-                  <img src="/img/quran.png" class="card-img-top">
+                  <img src="/img/hesti.png" class="card-img-top">
                   <div class="card-body">
                       <div class="row">
                           <div class="col-8">
@@ -90,15 +90,4 @@
       </div>
 </section>
 
-<section class="footer pt-5 pb-5" id="footer">
-  <div class="container">
-      <div class="row">
-          <div class="col-md-12 text-center">
-              <h3>ZCODE</h3>
-              <p>Create, Learn, and Discuss Together About Website Programming With Fun</p>
-              <p>© 2022 ZCODE. All rights reserved.</p>
-          </div>
-      </div>
-  </div>
-</section>
 @endsection

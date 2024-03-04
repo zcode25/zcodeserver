@@ -58,15 +58,4 @@
       </div>
 </section>
 
-<section class="footer pt-5 pb-5" id="footer">
-  <div class="container">
-      <div class="row">
-          <div class="col-md-12 text-center">
-              <h3>ZCODE</h3>
-              <p>Create, Learn, and Discuss Together About Website Programming With Fun</p>
-              <p>© 2022 ZCODE. All rights reserved.</p>
-          </div>
-      </div>
-  </div>
-</section>
 @endsection
