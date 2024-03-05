@@ -26,7 +26,7 @@
                       </div>
                       <div class="row mb-5">
                         <div class="col-12 text-center">
-                          <p class="card-text">The service provided was very good, all problems and bugs were resolved until the application actually entered the production stage.</p>
+                          <p class="card-text fst-italic">The service provided was very good, all problems and bugs were resolved until the application actually entered the production stage.</p>
                         </div>
                       </div>
                   </div>
@@ -49,7 +49,7 @@
                     </div>
                     <div class="row mb-5">
                       <div class="col-12 text-center">
-                        <p class="card-text">The service provided is fast. Moreover, if there is a problem, it is quickly resolved. Okay, that's very good. 😁</p>
+                        <p class="card-text fst-italic">The service provided is fast. Moreover, if there is a problem, it is quickly resolved. Okay, that's very good. 😁</p>
                       </div>
                     </div>
                 </div>

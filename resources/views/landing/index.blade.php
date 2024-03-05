@@ -180,7 +180,7 @@
                             <h6 class="card-subtitle mb-3 text-secondary">Bekasi, Indonesia</h6>
                         </div>
                     </div>
-                    <p class="card-text">The service provided was very good, all problems and bugs were resolved until the application actually entered the production stage.</p>
+                    <p class="card-text fst-italic">The service provided was very good, all problems and bugs were resolved until the application actually entered the production stage.</p>
                   </div>
                 </div>
             </div>
@@ -202,7 +202,7 @@
                           <h6 class="card-subtitle mb-3 text-secondary">Sukabumi, Indonesia</h6>
                       </div>
                   </div>
-                  <p class="card-text">The service provided is fast. Moreover, if there is a problem, it is quickly resolved. Okay, that's very good. 😁</p>
+                  <p class="card-text fst-italic">The service provided is fast. Moreover, if there is a problem, it is quickly resolved. Okay, that's very good. 😁</p>
                 </div>
               </div>
           </div>
