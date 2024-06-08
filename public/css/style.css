@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 body {
+    background-color: #000;
     font-family: "Poppins", sans-serif;
     font-size: 16px;
 }
@@ -48,11 +49,11 @@ body {
 
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
-    color: #000 !important;
+    color: #fff !important;
 }
 
 .navbar .nav-link.active {
-    color: #000 !important;
+    color: #fff !important;
 }
 
 .justify {
@@ -89,7 +90,8 @@ body {
 .hero,
 .feature,
 .latar {
-    background-color: #fafaff;
+    /* background-color: #fafaff; */
+    background-color: #0B0C10 !important;
 }
 
 #hero {
@@ -100,7 +102,7 @@ body {
 }
 
 .footer {
-    background-color: #00b1ff;
+    background-color: #0B0C10;
     color: #fff;
 }
 

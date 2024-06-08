@@ -32,7 +32,7 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                     <h3>ZCODE</h3>
-                    <p>Web Development Beyond Boundaries</p>
+                    <p>Web Development Agency</p>
                     <p>© {{ date('Y') }} ZCODE. All rights reserved.</p>
                 </div>
             </div>
