@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-    background-color: #000;
+    background-color: #000000;
     font-family: "Poppins", sans-serif;
     font-size: 16px;
 }
@@ -24,6 +24,32 @@ body {
 
 .navbar {
     box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.white-image {
+    filter: grayscale(100%) brightness(1);
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.white-image:hover {
+    filter: grayscale(0%) brightness(1);
+    transform: scale(1.1);
+}
+
+.glass-card {
+    background-color: #0B0C10;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.glass-card:hover {
+    transform: scale(0.95);
+    /* background-color: #8a2be2; */
+    background-color: #1E90FF;
+    color: #fff;
 }
 
 .navbar .navbar-toggler {
@@ -68,23 +94,24 @@ body {
 }
 
 .btn-primary {
-    background: #00b1ff !important;
-    border-color: #00b1ff !important;
+    background: #1E90FF !important;
+    border-color: #1E90FF !important;
 }
 
 .btn-outline-primary {
-    border-color: #00b1ff !important;
-    color: #00b1ff !important;
+    border-color: #1E90FF !important;
+    color: #1E90FF !important;
 }
 
 .btn-outline-primary:hover {
-    background: #00b1ff !important;
-    border-color: #00b1ff !important;
+    background: #1E90FF !important;
+    border-color: #1E90FF !important;
     color: white !important;
 }
 
 .text-primary {
-    color: #00b1ff !important;
+    /* color: #f6cf7a !important; */
+    color: #1E90FF !important;
 }
 
 .hero,
@@ -139,17 +166,32 @@ body {
     transform: scale(0.95);
 }
 
-.client .card {
+
+.pricing .lite {
     padding: 20px;
     border-radius: 5px;
-    border: none;
+    border: 1px solid #333;
+    background-color: #0B0C10;
     box-shadow: 8px 8px 30px 0px rgba(42, 67, 113, 0.15);
     transition: 0.3s;
 }
 
-.client .card:hover {
-    transform: translateY(-20px);
-    box-shadow: 0px 8px 30px 0px rgba(42, 67, 113, 0.1);
+.pricing .professional {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1E90FF;
+    box-shadow: 8px 8px 30px 0px rgba(42, 67, 113, 0.15);
+    transition: 0.3s;
+}
+
+.pricing .advance {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #8a2be2;
+    box-shadow: 8px 8px 30px 0px rgba(42, 67, 113, 0.15);
+    transition: 0.3s;
 }
 
 .contact .card {
@@ -162,7 +204,7 @@ body {
 
 .contact .card:hover {
     transform: scale(0.95);
-    background-color: #00b1ff;
+    background-color: #1E90FF;
     color: #fff;
 }
 

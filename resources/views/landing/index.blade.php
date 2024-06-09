@@ -5,13 +5,41 @@
     <div class="container">
         <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col-xl-8 text-center">
-                <h1 class="title text-primary mb-5 fw-bolder"><span class="text-dark">Web Development</span><br>Beyond Boundaries</h1>
-                <p class="mb-5 title-text text-dark">ZCODE provides dynamic web development solutions by delivering digital experiences that seamlessly combine innovation, functionality, and aesthetics.</p>
-                <a href="#contact" class="btn btn-primary px-4 me-2">Consult with Us</a>
-                <a href="/project" class="btn btn-light">See Projects</a>
+                <h1 class="title text-primary mb-5 fw-semibold"><span class="text-light">Mewujudkan Website Impian</span><br>Menjadi Nyata</h1>
+                <p class="mb-5 title-text text-light">Kami akan membantu kamu mengembangkan website mulai dari perencanaan, perancangan, pengembangan, hingga implementasi.</p>
+                <a href="#contact" class="btn btn-primary px-4 me-2">Buat Website Sekarang <i class="ms-2 fa-solid fa-paper-plane"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=6281288228600&text=Hello%20ZCODE!" target="blank" class="btn btn-dark">Konsultasi</a>
             </div>
         </div>
     </div>
+</section>
+
+
+<section class="technology mt-5 mb-5 pt-5 pb-5" id="technology">
+  <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center mb-5">
+                <p class="text-light"><i class="fa-solid fa-gears me-2"></i> Teknologi yang Digunakan</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-6 col-sm-4 col-md-2 mb-3">
+                <img src="/img/html-css-js.png" class="rounded img-fluid white-image" alt="HTML CSS JS">
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 mb-3">
+                <img src="/img/bootstrap.png" class="rounded img-fluid white-image" alt="Bootstrap">
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 mb-3">
+                <img src="/img/laravel.png" class="rounded img-fluid white-image" alt="Laravel">
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 mb-3">
+                <img src="/img/wordpress.png" class="rounded img-fluid white-image" alt="WordPress">
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 mb-3">
+                <img src="/img/elementor.png" class="rounded img-fluid white-image" alt="Elementor">
+            </div>
+        </div>
+  </div>
 </section>
 
 <section class="about mt-5 mb-5 pt-5 pb-5" id="about">
@@ -19,14 +47,14 @@
       <div class="row">
           <div class="col-md-12">
               <div class="row d-flex justify-content-between des">
-                    <div class="col-md-6 col-xl-5 mb-4 text-center">
-                      {{-- <img src="/img/about.jpg" class="rounded img-fluid" alt="zcode"> --}}
-                      <img src="/img/about.jpg" class="rounded img-fluid" alt="zcode">
+                    <div class="col-md-6 col-xl-5 mb-4">
+                        <img src="/img/about.png" class="rounded img-fluid" alt="zcode">
                     </div>
                     <div class="col-md-6 col-xl-6 align-self-center">
-                      <h3 class="mb-3 lh-base fw-bold">We provide the best solution</h3>
-                      <p class="justify mb-4">ZCODE has a focus on providing the best solutions in developing the web you want. You can directly consult with us regarding the website that will be developed for free.</p>
-                      <a href="#contact" class="btn btn-outline-primary px-4 me-2">Free Consultation</a>
+                        <p class="text-light"><i class="fa-solid fa-bolt me-2"></i> Tentang Kami</p>
+                        <h3 class="mb-3 lh-base fw-bold text-light">Kami memberikan <span class="text-primary">solusi terbaik</span></h3>
+                        <p class="justify mb-4 text-light">ZCODE berfokus dalam memberikan solusi terbaik dalam pengembangan web yang kamu inginkan. Kamu dapat berkonsultasi langsung dengan kami mengenai situs web yang akan dikembangkan.</p>
+                        <a href="#contact" class="btn btn-dark px-4 me-2">Konsultasi Gratis</a>
                     </div>
               </div>
           </div>
@@ -38,24 +66,30 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-md-12 mb-5">
-                <h3 class="fw-bold">What Service Will You Get?</h3>
+                <p class="text-light"><i class="fa-solid fa-code-merge me-2"></i> Alur Kerja</p>
+                <h3 class="fw-bold text-light">Bagaimana alur kerja kami?</h3>
             </div>
         </div>
         <div class="row text-center">
-            <div class="col-md-4 mb-5">
-                <i class="bi bi-code-slash" style="font-size: 60px;"></i>
-                <h5 class="mt-3">Technology</h5>
-                <p class="text-secondary">We use the latest technology in website development so that it is always up to date</p>
+            <div class="col-md-3 mb-5">
+                <i class="fa-solid fa-comments text-light" style="font-size: 60px;"></i>
+                <h5 class="mt-5 text-light">Konsultasi</h5>
+                <p class="text-secondary">Konsultasi adalah tahap awal di mana kami berdiskusi dengan kamu untuk memahami kebutuhan dan tujuan bisnis kamu. </p>
             </div>
-            <div class="col-md-4 mb-5">
-                <i class="bi bi-rocket-takeoff" style="font-size: 60px"></i>
-                <h5 class="mt-3">Workflow</h5>
-                <p class="text-secondary">We develop your website from the planning, design, coding stages, until it becomes your dream website</p>
+            <div class="col-md-3 mb-5">
+                <i class="fa-solid fa-code-branch text-light" style="font-size: 60px;"></i>
+                <h5 class="mt-5 text-light">Perancangan</h5>
+                <p class="text-secondary">Setelah memahami kebutuhan kamu, kami masuk ke tahap perancangan dengan metode UML (Unified Modelling Language).</p>
             </div>
-            <div class="col-md-4">
-                <i class="bi bi-tags" style="font-size: 60px"></i>
-                <h5 class="mt-3">Price</h5>
-                <p class="text-secondary">We believe every business has different goals. Tell us everything and we'll find the right price for you</p>
+            <div class="col-md-3">
+                <i class="fa-solid fa-code text-light" style="font-size: 60px"></i>
+                <h5 class="mt-5 text-light">Pengembangan</h5>
+                <p class="text-secondary">Setelah perancangan disetujui, kami mulai tahap pengembangan dengan menggunakan CMS atau menuliskan kode (coding).</p>
+            </div>
+            <div class="col-md-3">
+                <i class="fa-solid fa-rocket text-light" style="font-size: 60px"></i>
+                <h5 class="mt-5 text-light">Implementasi</h5>
+                <p class="text-secondary">Meluncurkan website dan memastikan semuanya berjalan lancar serta sesuai dengan kebutuhan</p>
             </div>
         </div>
     </div>
@@ -156,57 +190,168 @@
     </div>
 </section>
 
+<section class="pricing mb-5 pt-5 pb-5" id="pricing">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12 mb-5">
+            <p class="text-light"><i class="fa-solid fa-ranking-star me-2"></i> Pilihan Paket</p>
+                <h3 class="fw-bold text-light">Harga Pembuatan Website</h3>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-xl-4">
+                <div class="card lite">
+                  <div class="card-body text-start">
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="text-light">Lite</h3>
+                            <p class="text-light mb-3">Cocok untuk personal branding atau portofolio kamu</p>
+                            <hr class="text-light">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <text class="card-subtitle mb-3 text-light">Mulai Dari</text>
+                            <p class="fs-5 text-light text-decoration-line-through">Rp 1.999.000 <span class="ms-3 badge text-bg-dark">Diskon 20% </span></p>
+                            <p class="fs-2 text-primary fw-semibold">Rp 1.599.000 <span class="fs-6 text-light">/tahun ke-I</span></p>
+                            <div class="d-grid gap-2 mb-3">
+                                <button class="btn btn-primary btn-lg" type="button">Pilih Paket</button>
+                            </div>
+                            <span class="text-light fs-6 mb-3">Rp 999.000/tahun saat perpanjang paket</span>
+                            <hr class="text-light">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-light fs-6"><i class="fa-solid fa-check text-primary ms-3 me-3"></i>Maksimal 5 Halaman</p>
+                            <p class="text-light fs-6"><i class="fa-solid fa-check text-primary ms-3 me-3"></i>Desain Standar</p>
+                            <p class="text-light fs-6"><i class="fa-solid fa-check text-primary ms-3 me-3"></i>Gratis Hosting</p>
+                            <p class="text-light fs-6"><i class="fa-solid fa-check text-primary ms-3 me-3"></i>Gratis Domain</p>
+                            <p class="text-light fs-6"><i class="fa-solid fa-check text-primary ms-3 me-3"></i>Gratis SSL</p>
+                            <p class="text-light fs-6"><i class="fa-solid fa-check text-primary ms-3 me-3"></i>Pengerjaan 14 Hari</p>
+                            <p class="text-light fs-6"><i class="fa-solid fa-check text-primary ms-3 me-3"></i>Wordpress</p>
+                            <p class="text-light fs-6"><i class="fa-solid fa-check text-primary ms-3 me-3"></i>Lifetime Support</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="card professional">
+                  <div class="card-body text-start">
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="text-light">Professional</h3>
+                            <p class="text-light mb-3">Cocok untuk branding bisnis maupun organisasi secara digital</p>
+                            <hr class="text-light">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <text class="card-subtitle mb-3 text-light">Mulai Dari</text>
+                            <p class="fs-5 text-light text-decoration-line-through">Rp 2.599.000 <span class="ms-3 badge text-bg-dark">Diskon 23% </span></p>
+                            <p class="fs-2 text-light fw-semibold">Rp 1.999.000 <span class="fs-6 text-light">/tahun ke-I</span></p>
+                            <div class="d-grid gap-2 mb-3">
+                                <button class="btn btn-light btn-lg" type="button">Pilih Paket</button>
+                            </div>
+                            <span class="text-light fs-6 mb-3">Rp 1.199.000/tahun saat perpanjang paket</span>
+                            <hr class="text-light">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-light fs-6"><i class="fa-solid fa-check text-light ms-3 me-3"></i>Maksimal 7 Halaman</p>
+                            <p class="text-light fs-6"><i class="fa-solid fa-check text-light ms-3 me-3"></i>Desain Premium</p>
+                            <p class="text-light fs-6"><i class="fa-solid fa-check text-light ms-3 me-3"></i>Gratis Hosting</p>
+                            <p class="text-light fs-6"><i class="fa-solid fa-check text-light ms-3 me-3"></i>Gratis Domain</p>
+                            <p class="text-light fs-6"><i class="fa-solid fa-check text-light ms-3 me-3"></i>Gratis SSL</p>
+                            <p class="text-light fs-6"><i class="fa-solid fa-check text-light ms-3 me-3"></i>Pengerjaan 30 Hari</p>
+                            <p class="text-light fs-6"><i class="fa-solid fa-check text-light ms-3 me-3"></i>Wordpress</p>
+                            <p class="text-light fs-6"><i class="fa-solid fa-check text-light ms-3 me-3"></i>Lifetime Support</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="card advance">
+                  <div class="card-body text-start">
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="text-light">Advance</h3>
+                            <p class="text-light mb-3">Cocok untuk mengembangkan sistem website sesuai dengan kebutuhan</p>
+                            <hr class="text-light">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <text class="card-subtitle mb-3 text-light">Mulai Dari</text>
+                            <p class="fs-5 text-light text-decoration-line-through">Rp 4.999.000 <span class="ms-3 badge text-bg-dark">Diskon 40% </span></p>
+                            <p class="fs-2 text-light fw-semibold">Rp 2.999.000 <span class="fs-6 text-light">/tahun ke-I</span></p>
+                            <div class="d-grid gap-2 mb-3">
+                                <button class="btn btn-light btn-lg" type="button">Pilih Paket</button>
+                            </div>
+                            <span class="text-light fs-6 mb-3">Rp 1.999.000/tahun saat perpanjang paket</span>
+                            <hr class="text-light">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-light fs-6"><i class="fa-solid fa-check text-light ms-3 me-3"></i>Full Custom Fitur</p>
+                            <p class="text-light fs-6"><i class="fa-solid fa-check text-light ms-3 me-3"></i>Custom UI / UX Design</p>
+                            <p class="text-light fs-6"><i class="fa-solid fa-check text-light ms-3 me-3"></i>Gratis Hosting</p>
+                            <p class="text-light fs-6"><i class="fa-solid fa-check text-light ms-3 me-3"></i>Gratis Domain</p>
+                            <p class="text-light fs-6"><i class="fa-solid fa-check text-light ms-3 me-3"></i>Gratis SSL</p>
+                            <p class="text-light fs-6"><i class="fa-solid fa-check text-light ms-3 me-3"></i>Pengerjaan Sesuai Permintaan</p>
+                            <p class="text-light fs-6"><i class="fa-solid fa-check text-light ms-3 me-3"></i>Laravel Version 11</p>
+                            <p class="text-light fs-6"><i class="fa-solid fa-check text-light ms-3 me-3"></i>Lifetime Support</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="client mb-5 pt-5 pb-5" id="client">
     <div class="container">
         <div class="row text-center">
             <div class="col-md-12 mb-5">
-                <h3 class="fw-bold">Our Clients</h3>
+            <p class="text-light"><i class="fa-solid fa-ranking-star me-2"></i> Ulasan Klien</p>
+                <h3 class="fw-bold text-light">Apa yang mereka katakan?</h3>
             </div>
         </div>
         <div class="row mb-5">
-            <div class="col-xl-6 mb-5 align-self-center">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-5 align-self-center text-center">
-                      <h1 class="fw-bold" style="color: #000000; font-size: 40px;">Barbersquad</h1>
+            <div class="col-xl-6">
+                <div class="card glass-card">
+                  <div class="card-body text-center">
+                    <p class="card-text fst-italic text-light mb-3">"Pelayanan yang diberikan sangat baik, semua permasalahan dan bug teratasi hingga website sampai tahap production"</p>
+                    <div class="row">
+                        <div class="col">
+                            <p class="mb-3 text-light"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> </p>
+                            <h5 class="card-title fw-semibold text-light">Sofyan</h5>
+                            <text class="card-subtitle mb-3 text-light">Bekasi, Indonesia</text>
+                        </div>
                     </div>
+                  </div>
                 </div>
             </div>
             <div class="col-xl-6">
-                <div class="card" style="cursor: pointer">
-                  <div class="card-body">
+                <div class="card glass-card">
+                  <div class="card-body text-center">
+                    <p class="card-text fst-italic text-light mb-3">"Pelayanannya cepat. Apalagi kalau ada kendala, cepat diselesaikan. Oke, bagus banget. 😁"</p>
                     <div class="row">
                         <div class="col">
-                            <h5 class="card-title fw-bold">Sofyan</h5>
-                            <h6 class="card-subtitle mb-3 text-secondary">Bekasi, Indonesia</h6>
+                            <p class="mb-3 text-light"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> </p>
+                            <h5 class="card-title fw-semibold text-light">Dika Burhanudin</h5>
+                            <text class="card-subtitle mb-3 text-light">Sukabumi, Indonesia</text>
                         </div>
                     </div>
-                    <p class="card-text fst-italic">The service provided was very good, all problems and bugs were resolved until the application actually entered the production stage.</p>
                   </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-          <div class="col-xl-6 mb-5 align-self-center">
-              <div class="row justify-content-center">
-                  <div class="col-12 col-md-5 align-self-center text-center">
-                      <h1 class="fw-bold" style="color: #5526FF; font-size: 40px;">FREENET.ID</h1>
-                  </div>
-              </div>
-          </div>
-          <div class="col-xl-6">
-              <div class="card" style="cursor: pointer">
-                <div class="card-body">
-                  <div class="row">
-                      <div class="col">
-                          <h5 class="card-title fw-bold">Dika Burhanudin</h5>
-                          <h6 class="card-subtitle mb-3 text-secondary">Sukabumi, Indonesia</h6>
-                      </div>
-                  </div>
-                  <p class="card-text fst-italic">The service provided is fast. Moreover, if there is a problem, it is quickly resolved. Okay, that's very good. 😁</p>
-                </div>
-              </div>
-          </div>
-      </div>
     </div>
 </section>
 
