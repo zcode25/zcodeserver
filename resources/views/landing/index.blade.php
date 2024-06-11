@@ -44,21 +44,21 @@
 
 <section class="about mt-5 mb-5 pt-5 pb-5" id="about">
   <div class="container">
-      <div class="row">
-          <div class="col-md-12">
-              <div class="row d-flex justify-content-between des">
-                    <div class="col-md-6 col-xl-5 mb-4">
-                        <img src="/img/about.png" class="rounded img-fluid" alt="zcode">
-                    </div>
-                    <div class="col-md-6 col-xl-6 align-self-center">
-                        <p class="text-light"><i class="fa-solid fa-bolt me-2"></i> Tentang Kami</p>
-                        <h3 class="mb-3 lh-base fw-bold text-light">Kami memberikan <span class="text-primary">solusi terbaik</span></h3>
-                        <p class="justify mb-4 text-light">ZCODE berfokus dalam memberikan solusi terbaik dalam pengembangan web yang kamu inginkan. Kamu dapat berkonsultasi langsung dengan kami mengenai situs web yang akan dikembangkan.</p>
-                        <a href="#contact" class="btn btn-dark px-4 me-2">Konsultasi Gratis</a>
-                    </div>
-              </div>
-          </div>
-      </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row d-flex justify-content-between des">
+                        <div class="col-md-6 col-xl-5 mb-4">
+                            <img src="/img/about.png" class="rounded img-fluid" alt="zcode">
+                        </div>
+                        <div class="col-md-6 col-xl-6 align-self-center">
+                            <p class="text-light"><i class="fa-solid fa-bolt me-2"></i> Tentang Kami</p>
+                            <h3 class="mb-3 lh-base fw-bold text-light">Kami memberikan <span class="text-primary">solusi terbaik</span></h3>
+                            <p class="justify mb-4 text-light">ZCODE berfokus dalam memberikan solusi terbaik dalam pengembangan web yang kamu inginkan. Kamu dapat berkonsultasi langsung dengan kami mengenai situs web yang akan dikembangkan.</p>
+                            <a href="#contact" class="btn btn-dark px-4 me-2">Konsultasi Gratis</a>
+                        </div>
+                </div>
+            </div>
+        </div>
   </div>
 </section>
 
@@ -99,92 +99,52 @@
     <div class="container">
         <div class="row text-center mb-5">
             <div class="col-md-12">
-                <h3 class="fw-bold">Our Projects</h3>
+                <p class="text-light"><i class="fa-solid fa-diagram-project me-2"></i> Projek</p>
+                <h3 class="fw-bold text-light">Projek yang telah kami kembangkan</h3>
             </div>
         </div>
         <div class="row mb-5">
-            <div class="col-md-6 col-xl-4 mb-4">
-                <div class="card" onclick="window.open('https://hesti.zcodeserver.my.id/')" style="cursor: pointer">
-                    <img src="/img/hesti.png" class="card-img-top">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-12">
-                                <h6 class="card-title fw-bold mb-2">IT Helpdesk</h6>
-                                <p class="card-text text-secondary">Version 1.1.0</p>
-                            </div>
+            <div class="col-md-12">
+                <div class="row d-flex justify-content-between des">
+                        <div class="col-md-6 col-xl-5 mb-4">
+                            <img src="/img/hesti.png" class="rounded img-fluid" alt="zcode">
                         </div>
-                    </div>
+                        <div class="col-md-6 col-xl-6 align-self-center">
+                            <h3 class="mb-3 lh-base fw-bold text-light">Sistem IT Helpdesk</h3>
+                            <p class="mb-4 text-light">Sistem IT Helpdesk adalah platform atau layanan yang dirancang untuk menyediakan dukungan teknis dan bantuan kepada pengguna yang mengalami masalah dengan teknologi informasi di lingkungan kerja atau organisasi.</p>
+                            <!-- <a href="#contact" class="btn btn-dark px-4 me-2">Konsultasi Gratis</a> -->
+                        </div>
                 </div>
             </div>
-            <div class="col-md-6 col-xl-4 mb-4">
-                <div class="card" onclick="window.open('https://zcode25.github.io/switch-to-whatsApp/')" style="cursor: pointer">
-                    <img src="/img/stw.png" class="card-img-top">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-8">
-                                <h6 class="card-title fw-bold mb-2">Switch to WA</h6>
-                                <p class="card-text text-secondary">Version 1.1.0</p>
-                            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-md-12">
+                <div class="row d-flex justify-content-between des">
+                        <div class="col-md-6 col-xl-6 align-self-center">
+                            <h3 class="mb-3 lh-base fw-bold text-light text-end">Sistem Kelola Keuangan</h3>
+                            <p class="justify mb-4 text-light text-end">Sistem Kelola Keuangan adalah solusi komprehensif yang dirancang untuk memudahkan pengguna dalam mengelola pendapatan dan pengeluaran, serta memvisualisasikan data keuangan melalui grafik yang mudah dipahami.</p>
+                            <!-- <div class="text-end">
+                            <a href="#contact" class="btn btn-dark px-4 me-2">Konsultasi Gratis</a>
+                            </div>   -->
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-4 mb-4">
-                <div class="card" onclick="window.open('https://dailyquran.rf.gd/')" style="cursor: pointer">
-                    <img src="/img/quran.png" class="card-img-top">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-12">
-                                <h6 class="card-title fw-bold mb-2">Daily Quran</h6>
-                                <p class="card-text text-secondary">Version 1.1.0</p>
-                            </div>
+                        <div class="col-md-6 col-xl-5 mb-4">
+                            <img src="/img/fuluss.png" class="rounded img-fluid" alt="zcode">
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-4 mb-4">
-                <div class="card" onclick="window.open('https://fuluss.rf.gd/')" style="cursor: pointer">
-                    <img src="/img/fuluss.png" class="card-img-top">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-12">
-                                <h6 class="card-title fw-bold mb-2">Fuluss</h6>
-                                <p class="card-text text-secondary">Version 1.1.0</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-4 mb-4">
-                <div class="card" onclick="window.open('https://ikpop.rf.gd/')" style="cursor: pointer">
-                    <img src="/img/iKPOP.png" class="card-img-top">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-12">
-                                <h6 class="card-title fw-bold mb-2">iKPOP</h6>
-                                <p class="card-text text-secondary">Version 3.1.0</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-4 mb-4">
-                <div class="card" onclick="window.open('https://drivelistenkorea.rf.gd/')" style="cursor: pointer">
-                    <img src="/img/dlk.png" class="card-img-top">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-8">
-                                <h6 class="card-title fw-bold mb-2">Drive Listen Korea</h6>
-                                <p class="card-text text-secondary">Version 1.2.0</p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col text-center">
-                <a href="/project" class="btn btn-light">View More</a>
+            <div class="col-md-12">
+                <div class="row d-flex justify-content-between des">
+                        <div class="col-md-6 col-xl-5 mb-4">
+                            <img src="/img/e-shop.png" class="rounded img-fluid" alt="zcode">
+                        </div>
+                        <div class="col-md-6 col-xl-6 align-self-center">
+                            <h3 class="mb-3 lh-base fw-bold text-light">Sistem E-Business</h3>
+                            <p class="justify mb-4 text-light">Sistem E-Business adalah platform digital yang dirancang untuk mengelola dan mendukung semua aspek bisnis secara online, mulai dari penjualan, pemasaran, manajemen inventaris, hingga layanan pelanggan.</p>
+                            <!-- <a href="#contact" class="btn btn-dark px-4 me-2">Konsultasi Gratis</a> -->
+                        </div>
+                </div>
             </div>
         </div>
     </div>
@@ -318,7 +278,7 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-md-12 mb-5">
-            <p class="text-light"><i class="fa-solid fa-ranking-star me-2"></i> Ulasan Klien</p>
+                <p class="text-light"><i class="fa-solid fa-ranking-star me-2"></i> Ulasan Klien</p>
                 <h3 class="fw-bold text-light">Apa yang mereka katakan?</h3>
             </div>
         </div>
@@ -359,7 +319,8 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-md-12 mb-5">
-                <h3 class="fw-bold">Contact Us</h3>
+            <p class="text-light"><i class="fa-solid fa-ranking-star me-2"></i> Kontak Kami</p>
+                <h3 class="fw-bold text-light">Yuk konsultasi sekarang!</h3>
             </div>
         </div>
         <div class="row justify-content-center">
