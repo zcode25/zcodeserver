@@ -9,7 +9,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-              <!-- <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" href="/">Beranda</a> -->
+              <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" href="/">Beranda</a>
               <a class="nav-link {{ Request::is('project') ? 'active' : '' }}" href="/project">Projek</a>
               <a class="nav-link {{ Request::is('client') ? 'active' : '' }}" href="/client">Klien</a>
               <a class="nav-link" href="/#contact">Kontak Kami</a>

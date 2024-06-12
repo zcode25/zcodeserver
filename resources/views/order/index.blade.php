@@ -4,7 +4,7 @@
   <div class="container">
       <div class="row text-center mb-5">
           <div class="col-md-12">
-              <h3 class="fw-bold text-light mb-2">Klien Kami</h3>
+              <h3 class="fw-bold text-light mb-2">Formulir Pemesanan</h3>
               <p class="text-light">Terdapat beberapa klien yang telah bekerja sama dengan kamu</p>
           </div>
       </div>

@@ -2,7 +2,7 @@
 @section('container')
 <section class="project mt-5 pt-5 pb-5" id="project">
   <div class="container">
-      <div class="row text-center mb-4">
+      <div class="row text-center mb-5">
           <div class="col-md-12">
               <h3 class="fw-bold mb-2 text-light">Projek Kami</h3>
               <p class="text-secondary text-light">Terdapat beberapa proyek yang telah kami kembangkan</p>

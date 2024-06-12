@@ -1,9 +1,10 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\OrderController;
 use App\Http\Controllers\ClientController;
 use App\Http\Controllers\LandingController;
 use App\Http\Controllers\ProjectController;
-use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,8 +17,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
+// Route::get('/order', function () {
+//     return 'ok';
 // });
 
 Route::controller(LandingController::class)->group(function() {
@@ -30,4 +31,8 @@ Route::controller(ProjectController::class)->group(function() {
 
 Route::controller(ClientController::class)->group(function() {
     Route::get('/client', 'index')->name('client');
+});
+
+Route::controller(OrderController::class)->group(function() {
+    Route::get('/order', 'index')->name('order');
 });
