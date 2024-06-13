@@ -154,7 +154,7 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-md-12 mb-5">
-            <p class="text-light"><i class="fa-solid fa-ranking-star me-2"></i> Pilihan Paket</p>
+                <p class="text-light"><i class="fa-solid fa-ranking-star me-2"></i> Pilihan Paket</p>
                 <h3 class="fw-bold text-light">Harga Pembuatan Website</h3>
             </div>
         </div>
