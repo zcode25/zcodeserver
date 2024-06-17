@@ -159,7 +159,7 @@
             </div>
         </div>
         <div class="row mb-5">
-            <div class="col-xl-4">
+            <div class="col-xl-4 mb-5">
                 <div class="card lite">
                   <div class="card-body text-start">
                     <div class="row">
@@ -196,7 +196,7 @@
                   </div>
                 </div>
             </div>
-            <div class="col-xl-4">
+            <div class="col-xl-4 mb-5">
                 <div class="card professional">
                   <div class="card-body text-start">
                     <div class="row">
@@ -233,7 +233,7 @@
                   </div>
                 </div>
             </div>
-            <div class="col-xl-4">
+            <div class="col-xl-4 mb-5">
                 <div class="card advance">
                   <div class="card-body text-start">
                     <div class="row">
@@ -283,7 +283,7 @@
             </div>
         </div>
         <div class="row mb-5">
-            <div class="col-xl-6">
+            <div class="col-xl-6 mb-5">
                 <div class="card glass-card">
                   <div class="card-body text-center">
                     <p class="card-text fst-italic text-light mb-3">"Pelayanan yang diberikan sangat baik, semua permasalahan dan bug teratasi hingga website sampai tahap production"</p>
@@ -297,7 +297,7 @@
                   </div>
                 </div>
             </div>
-            <div class="col-xl-6">
+            <div class="col-xl-6 mb-5">
                 <div class="card glass-card">
                   <div class="card-body text-center">
                     <p class="card-text fst-italic text-light mb-3">"Pelayanannya cepat. Apalagi kalau ada kendala, cepat diselesaikan. Oke, bagus banget. 😁"</p>

@@ -20,8 +20,11 @@
                 <div class="card-body">
                   <div class="row g-3">
                     <div class="col-md-6">
-                      <label for="name" class="form-label">Nama Lengkap <span class="text-danger">*</span></label>
-                      <input type="email" class="form-control bg-dark text-light border-secondary" id="name" name="name" placeholder="Masukan nama kamu">
+                      <label for="customerName" class="form-label">Nama Lengkap <span class="text-danger">*</span></label>
+                      <input type="text" class="form-control bg-dark text-light border-secondary @error('customerName') is-invalid @enderror" id="customerName" name="customerName" placeholder="Masukan nama kamu">
+                      @error('customerName') 
+                        <div class="invalid-feedback">{{ $message }}</div>
+                      @enderror
                     </div>
                     <div class="col-md-6">
                       <label for="customerType" class="form-label">Jenis Pelanggan <span class="text-danger">*</span></label>
@@ -36,16 +39,16 @@
                       </select>
                     </div>
                     <div class="col-md-6">
-                      <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
-                      <input type="email" class="form-control bg-dark text-light border-secondary" id="email" name="email" placeholder="Ex: joko@gmail.com">
+                      <label for="customerEmail" class="form-label">Email <span class="text-danger">*</span></label>
+                      <input type="email" class="form-control bg-dark text-light border-secondary" id="customerEmail" name="customerEmail" placeholder="Ex: joko@gmail.com">
                     </div>
                     <div class="col-md-6">
-                      <label for="telephone" class="form-label">WhatsApp / Telepon <span class="text-danger">*</span></label>
-                      <input type="tel" class="form-control bg-dark text-light border-secondary" id="telephone" name="telephone" placeholder="Ex: 081312344321">
+                      <label for="customerTel" class="form-label">WhatsApp / Telepon <span class="text-danger">*</span></label>
+                      <input type="tel" class="form-control bg-dark text-light border-secondary" id="customerTel" name="customerTel" placeholder="Ex: 081312344321">
                     </div>
                     <div class="col-12">
-                        <label for="address" class="form-label">Alamat <span class="text-danger">*</span></label>
-                        <textarea class="form-control bg-dark text-light border-secondary" id="address" name="alamat" rows="3" placeholder="Masukan alamat lengkap kamu"></textarea>
+                        <label for="customerAddress" class="form-label">Alamat <span class="text-danger">*</span></label>
+                        <textarea class="form-control bg-dark text-light border-secondary" id="customerAddress" name="customerAddress" rows="3" placeholder="Masukan alamat lengkap kamu"></textarea>
                     </div>
                   </div>
                 </div>
@@ -59,12 +62,12 @@
                 <div class="card-body">
                   <div class="row g-3">
                     <div class="col-md-6">
-                      <label for="business" class="form-label">Nama Bisnis <span class="text-danger">*</span></label>
-                      <input type="text" class="form-control bg-dark text-light border-secondary" id="business" name="business" placeholder="Masukan nama bisnis kamu">
+                      <label for="businessName" class="form-label">Nama Bisnis <span class="text-danger">*</span></label>
+                      <input type="text" class="form-control bg-dark text-light border-secondary" id="businessName" name="businessName" placeholder="Masukan nama bisnis kamu">
                     </div>
                     <div class="col-md-6">
-                      <label for="bidang" class="form-label">Bidang <span class="text-danger">*</span></label>
-                      <select class="form-select bg-dark text-light border-secondary" aria-label="Default select example" id="bidang" name="customerType">
+                      <label for="businessField" class="form-label">Bidang <span class="text-danger">*</span></label>
+                      <select class="form-select bg-dark text-light border-secondary" aria-label="Default select example" id="businessField" name="businessField">
                         <option value="Konstruksi">Konstruksi</option>
                         <option value="Manufaktur">Manufaktur</option>
                         <option value="Fashion">Fashion</option>
@@ -103,26 +106,30 @@
                 <div class="card-body">
                   <div class="row g-3">
                     <div class="col-12">
-                        <label for="businessDesc" class="form-label">Jelaskan website yang diinginkan <span class="text-danger">*</span></label>
-                        <textarea class="form-control bg-dark text-light border-secondary" id="businessDesc" name="businessDesc" rows="3" placeholder="Masukan keterangan website yang diinginkan seperti tema, fitur, dan lainya"></textarea>
+                        <label for="webDesc" class="form-label">Jelaskan website yang diinginkan <span class="text-danger">*</span></label>
+                        <textarea class="form-control bg-dark text-light border-secondary" id="webDesc" name="webDesc" rows="3" placeholder="Masukan keterangan website yang diinginkan seperti tema, fitur, dan lainya"></textarea>
                     </div>
                     <div class="col-12">
-                        <label for="businessDesc" class="form-label">Link Referensi <span class="text-secondary">(Opsional)</span></label>
+                        <label for="webLink" class="form-label">Link Referensi <span class="text-secondary">(Opsional)</span></label>
                         <p class="text-secondary">Alamat URL website lainnya yang menjadi referensi.</p>
-                        <input type="text" class="form-control bg-dark text-light border-secondary" id="business" name="business" placeholder="Ex: https://www.site.com">
+                        <input type="text" class="form-control bg-dark text-light border-secondary" id="webLink" name="webLink" placeholder="Ex: https://www.site.com">
                     </div>
                     <div class="col-12">
-                        <label for="businessDesc" class="form-label">Dokumen Pendukung <span class="text-secondary">(Opsional)</span></label>
+                        <label for="webDoc" class="form-label">Dokumen Pendukung <span class="text-secondary">(Opsional)</span></label>
                         <p class="text-secondary">*Upload dokumen pendukung seperti (logo perusahaan, brand guidelines, referensi dsb). <br>
                             *Max 5Mb | File: .doc .pdf .png, .jpg, .jpeg</p>
-                        <input type="file" class="form-control bg-dark text-light border-secondary" id="business" name="business">
-                    </div>
+                        <input type="file" class="form-control bg-dark text-light border-secondary" id="webDoc" name="webDoc">
+                        <input type="hidden" id="webPackage" name="webPackage" value="Paket Lite">
+                        <input type="hidden" id="price" name="price" value="1999000">
+                        <input type="hidden" id="discount" name="discount" value="400000">
+                        <input type="hidden" id="total" name="total" value="1599000">
+                      </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row">
+          <div class="row mb-5">
             <div class="col-xl-12">
               <div class="d-grid gap-2">
                 <button class="btn btn-primary btn-xl" type="submit" name="submit">Buat Pesanan</button>
