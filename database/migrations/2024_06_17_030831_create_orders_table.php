@@ -14,11 +14,11 @@ return new class extends Migration
         Schema::create('orders', function (Blueprint $table) {
             $table->char('orderId', 8)->primary();
             $table->date('orderDate');
-            $table->string('customerName',100);
-            $table->string('customerType',20);
-            $table->string('customerEmail',50);
-            $table->char('customerTel',15);
-            $table->text('customerAddress');
+            $table->string('clientName',100);
+            $table->string('clientType',20);
+            $table->string('clientEmail',50);
+            $table->char('clientTel',15);
+            $table->text('clientAddress');
             $table->string('businessName',100);
             $table->string('businessField',20);
             $table->text('businessDesc');

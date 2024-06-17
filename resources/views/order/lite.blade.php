@@ -20,15 +20,15 @@
                 <div class="card-body">
                   <div class="row g-3">
                     <div class="col-md-6">
-                      <label for="customerName" class="form-label">Nama Lengkap <span class="text-danger">*</span></label>
-                      <input type="text" class="form-control bg-dark text-light border-secondary @error('customerName') is-invalid @enderror" id="customerName" name="customerName" placeholder="Masukan nama kamu">
-                      @error('customerName') 
+                      <label for="clientName" class="form-label">Nama Lengkap <span class="text-danger">*</span></label>
+                      <input type="text" class="form-control bg-dark text-light border-secondary @error('clientName') is-invalid @enderror" id="clientName" name="clientName" placeholder="Masukan nama kamu" value="{{ old('clientName') }}">
+                      @error('clientName')
                         <div class="invalid-feedback">{{ $message }}</div>
                       @enderror
                     </div>
                     <div class="col-md-6">
-                      <label for="customerType" class="form-label">Jenis Pelanggan <span class="text-danger">*</span></label>
-                      <select class="form-select bg-dark text-light border-secondary" aria-label="Default select example" id="customerType" name="customerType">
+                      <label for="clientType" class="form-label">Jenis Pelanggan <span class="text-danger">*</span></label>
+                      <select class="form-select bg-dark text-light border-secondary" aria-label="Default select example" id="clientType" name="clientType">
                         <option value="Personal">Personal</option>
                         <option value="Pemilik Usaha">Pemilik Usaha</option>
                         <option value="Perusahaan">Perusahaan</option>
@@ -39,16 +39,25 @@
                       </select>
                     </div>
                     <div class="col-md-6">
-                      <label for="customerEmail" class="form-label">Email <span class="text-danger">*</span></label>
-                      <input type="email" class="form-control bg-dark text-light border-secondary" id="customerEmail" name="customerEmail" placeholder="Ex: joko@gmail.com">
+                      <label for="clientEmail" class="form-label">Email <span class="text-danger">*</span></label>
+                      <input type="email" class="form-control bg-dark text-light border-secondary @error('clientEmail') is-invalid @enderror" id="clientEmail" name="clientEmail" placeholder="Ex: joko@gmail.com" value="{{ old('clientEmail') }}">
+                      @error('clientEmail')
+                        <div class="invalid-feedback">{{ $message }}</div>
+                      @enderror
                     </div>
                     <div class="col-md-6">
-                      <label for="customerTel" class="form-label">WhatsApp / Telepon <span class="text-danger">*</span></label>
-                      <input type="tel" class="form-control bg-dark text-light border-secondary" id="customerTel" name="customerTel" placeholder="Ex: 081312344321">
+                      <label for="clientTel" class="form-label">WhatsApp / Telepon <span class="text-danger">*</span></label>
+                      <input type="tel" class="form-control bg-dark text-light border-secondary @error('clientTel') is-invalid @enderror" id="clientTel" name="clientTel" placeholder="Ex: 081312344321" value="{{ old('clientTel') }}">
+                      @error('clientTel')
+                        <div class="invalid-feedback">{{ $message }}</div>
+                      @enderror
                     </div>
                     <div class="col-12">
-                        <label for="customerAddress" class="form-label">Alamat <span class="text-danger">*</span></label>
-                        <textarea class="form-control bg-dark text-light border-secondary" id="customerAddress" name="customerAddress" rows="3" placeholder="Masukan alamat lengkap kamu"></textarea>
+                      <label for="clientAddress" class="form-label">Alamat <span class="text-danger">*</span></label>
+                      <textarea class="form-control bg-dark text-light border-secondary @error('clientAddress') is-invalid @enderror" id="clientAddress" name="clientAddress" rows="3" placeholder="Masukan alamat lengkap kamu" value="{{ old('clientAddress') }}"></textarea>
+                      @error('clientAddress')
+                        <div class="invalid-feedback">{{ $message }}</div>
+                      @enderror
                     </div>
                   </div>
                 </div>
@@ -63,7 +72,10 @@
                   <div class="row g-3">
                     <div class="col-md-6">
                       <label for="businessName" class="form-label">Nama Bisnis <span class="text-danger">*</span></label>
-                      <input type="text" class="form-control bg-dark text-light border-secondary" id="businessName" name="businessName" placeholder="Masukan nama bisnis kamu">
+                      <input type="text" class="form-control bg-dark text-light border-secondary @error('businessName') is-invalid @enderror" id="businessName" name="businessName" placeholder="Masukan nama bisnis kamu" value="{{ old('businessName') }}">
+                      @error('businessName')
+                        <div class="invalid-feedback">{{ $message }}</div>
+                      @enderror
                     </div>
                     <div class="col-md-6">
                       <label for="businessField" class="form-label">Bidang <span class="text-danger">*</span></label>
@@ -75,7 +87,7 @@
                         <option value="Hukum">Hukum</option>
                         <option value="Industri">Industri</option>
                         <option value="Jasa">Jasa</option>
-                        <option value="Kuangan">Kuangan</option>
+                        <option value="Kuangan">Keuangan</option>
                         <option value="Kecantikan">Kecantikan</option>
                         <option value="Logistik">Logistik</option>
                         <option value="Kuangan">Kuangan</option>
@@ -91,8 +103,11 @@
                       </select>
                     </div>
                     <div class="col-12">
-                        <label for="businessDesc" class="form-label">Jelaskan mengenai bisnis kamu <span class="text-danger">*</span></label>
-                        <textarea class="form-control bg-dark text-light border-secondary" id="businessDesc" name="businessDesc" rows="3" placeholder="Masukan keterangan mengenai bisnis kamu secara lengkap"></textarea>
+                      <label for="businessDesc" class="form-label">Jelaskan mengenai bisnis kamu <span class="text-danger">*</span></label>
+                      <textarea class="form-control bg-dark text-light border-secondary @error('businessDesc') is-invalid @enderror" id="businessDesc" name="businessDesc" rows="3" placeholder="Masukan keterangan mengenai bisnis kamu secara lengkap" value="{{ old('businessDesc') }}"></textarea>
+                      @error('businessDesc')
+                        <div class="invalid-feedback">{{ $message }}</div>
+                      @enderror
                     </div>
                   </div>
                 </div>
@@ -106,24 +121,30 @@
                 <div class="card-body">
                   <div class="row g-3">
                     <div class="col-12">
-                        <label for="webDesc" class="form-label">Jelaskan website yang diinginkan <span class="text-danger">*</span></label>
-                        <textarea class="form-control bg-dark text-light border-secondary" id="webDesc" name="webDesc" rows="3" placeholder="Masukan keterangan website yang diinginkan seperti tema, fitur, dan lainya"></textarea>
+                      <label for="webDesc" class="form-label">Jelaskan website yang diinginkan <span class="text-danger">*</span></label>
+                      <textarea class="form-control bg-dark text-light border-secondary @error('webDesc') is-invalid @enderror" id="webDesc" name="webDesc" rows="3" placeholder="Masukan keterangan website yang diinginkan seperti tema, fitur, dan lainya" value="{{ old('webDesc') }}"></textarea>
+                      @error('webDesc')
+                        <div class="invalid-feedback">{{ $message }}</div>
+                      @enderror
                     </div>
                     <div class="col-12">
-                        <label for="webLink" class="form-label">Link Referensi <span class="text-secondary">(Opsional)</span></label>
-                        <p class="text-secondary">Alamat URL website lainnya yang menjadi referensi.</p>
-                        <input type="text" class="form-control bg-dark text-light border-secondary" id="webLink" name="webLink" placeholder="Ex: https://www.site.com">
+                      <label for="webLink" class="form-label">Link Referensi <span class="text-secondary">(Opsional)</span></label>
+                      <p class="text-secondary">Alamat URL website lainnya yang menjadi referensi.</p>
+                      <input type="text" class="form-control bg-dark text-light border-secondary @error('webLink') is-invalid @enderror"  id="webLink" name="webLink" placeholder="Ex: https://www.site.com" value="{{ old('webLink') }}">
+                      @error('webLink')
+                        <div class="invalid-feedback">{{ $message }}</div>
+                      @enderror
                     </div>
                     <div class="col-12">
-                        <label for="webDoc" class="form-label">Dokumen Pendukung <span class="text-secondary">(Opsional)</span></label>
-                        <p class="text-secondary">*Upload dokumen pendukung seperti (logo perusahaan, brand guidelines, referensi dsb). <br>
-                            *Max 5Mb | File: .doc .pdf .png, .jpg, .jpeg</p>
-                        <input type="file" class="form-control bg-dark text-light border-secondary" id="webDoc" name="webDoc">
-                        <input type="hidden" id="webPackage" name="webPackage" value="Paket Lite">
-                        <input type="hidden" id="price" name="price" value="1999000">
-                        <input type="hidden" id="discount" name="discount" value="400000">
-                        <input type="hidden" id="total" name="total" value="1599000">
-                      </div>
+                      <label for="webDoc" class="form-label">Dokumen Pendukung <span class="text-secondary">(Opsional)</span></label>
+                      <p class="text-secondary">*Upload dokumen pendukung seperti (logo perusahaan, brand guidelines, referensi dsb). <br>
+                        *Max 5Mb | File: .doc .pdf .png, .jpg, .jpeg</p>
+                      <input type="file" class="form-control bg-dark text-light border-secondary" id="webDoc" name="webDoc">
+                      <input type="hidden" id="webPackage" name="webPackage" value="Paket Lite">
+                      <input type="hidden" id="price" name="price" value="1999000">
+                      <input type="hidden" id="discount" name="discount" value="400000">
+                      <input type="hidden" id="total" name="total" value="1599000">
+                    </div>
                   </div>
                 </div>
               </div>

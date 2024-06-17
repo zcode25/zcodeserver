@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Haruncpi\LaravelIdGenerator\IdGenerator;
 
 class OrderController extends Controller
 {
@@ -12,11 +13,11 @@ class OrderController extends Controller
 
     public function save(Request $request) {
         $validatedData = $request->validate([
-            'customerName' => 'required|max:100',
-            'customerType' => 'required|max:20',
-            'customerEmail' => 'required|max:50',
-            'customerTel' => 'required|max:15',
-            'customerAddress' => 'required|max:200',
+            'clientName' => 'required|max:100',
+            'clientType' => 'required|max:20',
+            'clientEmail' => 'required|email|max:50',
+            'clientTel' => 'required|max:15',
+            'clientAddress' => 'required|max:200',
             'businessName' => 'required|max:100',
             'businessField' => 'required|max:20',
             'businessDesc' => 'required|max:200',
@@ -27,5 +28,8 @@ class OrderController extends Controller
             'discount' => 'required',
             'total' => 'required',
         ]);
+
+        $validatedData['orderDate'] = date();
+        $validatedData['orderId'] = IdGenerator::generate(['table' => 'orders', 'field' => 'orderId', 'length' => 20, 'prefix' => 'ZCODE-CO-'. date('y-m-d', strtotime($validatedData['assetProcurementDate'])) . '/']);
     }
 }
