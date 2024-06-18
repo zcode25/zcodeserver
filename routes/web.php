@@ -34,7 +34,7 @@ Route::controller(ClientController::class)->group(function() {
 });
 
 Route::controller(OrderController::class)->group(function() {
-    Route::get('/order/lite', 'index')->name('orderLite');
-    Route::get('/order/professional', 'index')->name('orderProfessional');
+    Route::get('/order/lite', 'lite')->name('orderLite');
+    Route::get('/order/professional', 'professional')->name('orderProfessional');
     Route::post('/order/save', 'save')->name('save');
 });

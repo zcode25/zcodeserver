@@ -54,7 +54,7 @@
                     </div>
                     <div class="col-12">
                       <label for="clientAddress" class="form-label">Alamat <span class="text-danger">*</span></label>
-                      <textarea class="form-control bg-dark text-light border-secondary @error('clientAddress') is-invalid @enderror" id="clientAddress" name="clientAddress" rows="3" placeholder="Masukan alamat lengkap kamu" value="{{ old('clientAddress') }}"></textarea>
+                      <textarea class="form-control bg-dark text-light border-secondary @error('clientAddress') is-invalid @enderror" id="clientAddress" name="clientAddress" rows="3" placeholder="Masukan alamat lengkap kamu">{{ old('clientAddress') }}</textarea>
                       @error('clientAddress')
                         <div class="invalid-feedback">{{ $message }}</div>
                       @enderror
@@ -104,7 +104,7 @@
                     </div>
                     <div class="col-12">
                       <label for="businessDesc" class="form-label">Jelaskan mengenai bisnis kamu <span class="text-danger">*</span></label>
-                      <textarea class="form-control bg-dark text-light border-secondary @error('businessDesc') is-invalid @enderror" id="businessDesc" name="businessDesc" rows="3" placeholder="Masukan keterangan mengenai bisnis kamu secara lengkap" value="{{ old('businessDesc') }}"></textarea>
+                      <textarea class="form-control bg-dark text-light border-secondary @error('businessDesc') is-invalid @enderror" id="businessDesc" name="businessDesc" rows="3" placeholder="Masukan keterangan mengenai bisnis kamu secara lengkap">{{ old('businessDesc') }}</textarea>
                       @error('businessDesc')
                         <div class="invalid-feedback">{{ $message }}</div>
                       @enderror
@@ -122,7 +122,7 @@
                   <div class="row g-3">
                     <div class="col-12">
                       <label for="webDesc" class="form-label">Jelaskan website yang diinginkan <span class="text-danger">*</span></label>
-                      <textarea class="form-control bg-dark text-light border-secondary @error('webDesc') is-invalid @enderror" id="webDesc" name="webDesc" rows="3" placeholder="Masukan keterangan website yang diinginkan seperti tema, fitur, dan lainya" value="{{ old('webDesc') }}"></textarea>
+                      <textarea class="form-control bg-dark text-light border-secondary @error('webDesc') is-invalid @enderror" id="webDesc" name="webDesc" rows="3" placeholder="Masukan keterangan website yang diinginkan seperti tema, fitur, dan lainya">{{ old('webDesc') }}</textarea>
                       @error('webDesc')
                         <div class="invalid-feedback">{{ $message }}</div>
                       @enderror
@@ -140,6 +140,9 @@
                       <p class="text-secondary">*Upload dokumen pendukung seperti (logo perusahaan, brand guidelines, referensi dsb). <br>
                         *Max 5Mb | File: .doc .pdf .png, .jpg, .jpeg</p>
                       <input type="file" class="form-control bg-dark text-light border-secondary" id="webDoc" name="webDoc">
+                      @error('webDoc')
+                        <div class="invalid-feedback">{{ $message }}</div>
+                      @enderror
                       <input type="hidden" id="webPackage" name="webPackage" value="Paket Lite">
                       <input type="hidden" id="price" name="price" value="1999000">
                       <input type="hidden" id="discount" name="discount" value="400000">

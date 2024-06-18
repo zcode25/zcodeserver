@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('orders', function (Blueprint $table) {
-            $table->char('orderId', 8)->primary();
+            $table->char('orderId', 25)->primary();
             $table->date('orderDate');
             $table->string('clientName',100);
             $table->string('clientType',20);
@@ -23,7 +23,8 @@ return new class extends Migration
             $table->string('businessField',20);
             $table->text('businessDesc');
             $table->text('webDesc');
-            $table->string('webLink',200);
+            $table->string('webLink',200)->nullable();
+            $table->string('webDoc',200)->nullable();
             $table->string('webPackage', 20);
             $table->integer('price');
             $table->integer('discount');
