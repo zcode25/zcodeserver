@@ -249,7 +249,7 @@
                             <p class="fs-5 text-light text-decoration-line-through">Rp 4.999.000 <span class="ms-3 badge text-bg-dark">Diskon 40% </span></p>
                             <p class="fs-2 text-light fw-semibold">Rp 2.999.000 <span class="fs-6 text-light">/tahun ke-I</span></p>
                             <div class="d-grid gap-2 mb-3">
-                                <button class="btn btn-light btn-lg" type="button">Pilih Paket</button>
+                                <a href="/order/advance" class="btn btn-light btn-lg">Pilih Paket</a>
                             </div>
                             <span class="text-light fs-6 mb-3">Rp 1.999.000/tahun saat perpanjang paket</span>
                             <hr class="text-light">
